@@ -1,0 +1,71 @@
+/*Overall styles */
+
+* {
+  box-sizing: border-box;
+}
+
+div.container {
+  width: 100%;
+}
+
+/*Card-level styles */
+
+article {
+  width: 30%;
+  border: 1px solid lightblue;
+  float: left;
+  display: inline-block;
+  margin: 0 15px 15px 0;
+  margin-bottom: 15px;
+}
+
+/*First section styling */
+
+article img{
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 2% 0 2% 0;
+}
+
+article header.title {
+  border: 1px dotted lightgray;
+  text-align: center;
+}
+
+p.hodor {
+  text-align: justify;
+}
+
+
+h5 {
+  width: 100%;
+  background-color: grey;
+  color: yellow;
+  padding: 2px;
+}
+
+
+/*Section 2 and 3 styling */
+h3 {
+  text-align: left;
+  font-weight: lighter;
+  margin-left: 5px;
+
+}
+
+
+
+footer p {
+  font-size: .75em;
+  margin-bottom: -15px;
+  margin-top: -15px;
+}
+
+p.bold {
+  font-weight: bolder;
+  font-size: .85em;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
